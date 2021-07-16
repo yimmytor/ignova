@@ -1,8 +1,8 @@
 function InicioComponent() {
     return(
-        <>
-            <h1>Inicio</h1>
-        </>
+        <div className="container">
+            
+        </div>
     );
 }
 

@@ -1,12 +1,11 @@
 import * as Interfaces from '../../util/interfaces';
-// import logo from '../../assets/img/logo.png';
+import './HeaderComponent.css';
 import NavComponent from '../NavComponent/NavComponent';
+
 
 function HeaderComponent(props: {menuLinks: Array<Interfaces.Link>}) {
     return(
-        <header>
-            {/* <img src={logo} alt="Logo de ignova"/> */}
-            <span>Outsourcing Administrativo - Contable</span>
+        <header className="container-fluid">
             <NavComponent menuLinks={props.menuLinks} />
         </header>
     );

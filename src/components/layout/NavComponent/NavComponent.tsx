@@ -1,6 +1,8 @@
 import * as Interfaces from '../../util/interfaces';
 import { useState, useEffect } from "react";
-import NavLinkComponent from "../NavLinkComponent/NavLinkComponent";
+import './NavComponent.css';
+import NavLinkComponent from '../NavLinkComponent/NavLinkComponent';
+import MenuComponent from '../MenuComponent/MenuComponet';
 
 function NavComponent(props: {menuLinks: Array<Interfaces.Link>}) {
     const [menu, setMenu] = useState<Array<JSX.Element>>();
@@ -18,9 +20,8 @@ function NavComponent(props: {menuLinks: Array<Interfaces.Link>}) {
     
     return(
         <nav>
-            <ul>
-                {menu}
-            </ul>
+            <span>Outsourcing Administrativo - Contable</span>
+            <MenuComponent menu={menu} />
         </nav>
     );
 }
