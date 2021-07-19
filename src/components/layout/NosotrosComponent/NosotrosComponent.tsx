@@ -1,3 +1,5 @@
+import './NosotrosComponent.css';
+
 function NosotrosComponent() {
     return(
         <>

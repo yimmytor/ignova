@@ -1,3 +1,5 @@
+import './ServiciosComponent.css';
+
 function ServiciosComponent() {
     return(
         <>

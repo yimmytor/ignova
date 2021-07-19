@@ -1,3 +1,5 @@
+import './ContactoComponent.css';
+
 function ContactoComponent() {
     return(
         <>
