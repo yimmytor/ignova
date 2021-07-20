@@ -1,5 +1,5 @@
-import {NavLink} from 'react-router-dom';
-import './NavLinkComponent.css'
+import { NavLink } from 'react-router-dom';
+import './MenuLinkComponent.css'
 
 function NavLinkComponent(props: {
                             url: string,

@@ -1,10 +1,19 @@
 nav {
     position: fixed;
-    background-color: white;
-    width: 90%;
-    border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    width: 90vw;
+    margin-top: 5vh;
+    margin-left: -45vw;
+    padding: 0 20px;
+    background-color: var(--color-terciario-1);
+    
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
 }

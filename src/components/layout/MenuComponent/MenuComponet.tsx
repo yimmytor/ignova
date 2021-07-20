@@ -1,7 +1,7 @@
 import * as Interfaces from '../../util/interfaces';
 import { useState, useEffect } from "react";
 import './MenuComponent.css';
-import NavLinkComponent from '../NavLinkComponent/NavLinkComponent';
+import MenuLinkComponent from '../MenuLinkComponent/MenuLinkComponent';
 
 function MenuComponent(props: {menuLinks: Array<Interfaces.Link>}) {
     const [menu, setMenu] = useState<Array<JSX.Element>>();
@@ -9,8 +9,7 @@ function MenuComponent(props: {menuLinks: Array<Interfaces.Link>}) {
     useEffect(()=>{
         function generarMenu() {
             setMenu(props.menuLinks.map((link, index)=>
-                <NavLinkComponent key={index} url={link.url} texto={link.texto} 
-                />
+                <MenuLinkComponent key={index} url={link.url} texto={link.texto} />
             ));
         }
 

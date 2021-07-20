@@ -1,0 +1,14 @@
+.botom {
+    cursor: pointer;
+}
+
+.boton-menu {
+    border: none;
+    background-color: transparent;
+}
+
+.boton-menu svg {
+    color: var(--color-primario);
+    height: 2rem;    
+}
+    
