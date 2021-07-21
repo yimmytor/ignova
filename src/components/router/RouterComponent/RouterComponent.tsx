@@ -10,7 +10,7 @@ function RouterComponent(props: {menuLinks: Array<Interfaces.Link>}) {
         const rutas= props.menuLinks;
         const home = rutas.filter(ruta=>ruta.homePage)[0];
 
-        return(
+        return (
             <Switch>
                 {rutas.map((ruta,index)=><Route key={index} exact path={ruta.url}>{ruta.componente}</Route>)}
                 {home !== undefined ? <Route exact path="/"><Redirect to={home.url} /></Route> : null}          
@@ -25,7 +25,7 @@ function RouterComponent(props: {menuLinks: Array<Interfaces.Link>}) {
         setRutas(generarRutas());
     }, [])
 
-    return(
+    return (
         <main>
             {rutas}            
         </main> 

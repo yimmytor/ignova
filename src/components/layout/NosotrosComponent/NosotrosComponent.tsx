@@ -1,7 +1,7 @@
 import './NosotrosComponent.css';
 
 function NosotrosComponent() {
-    return(
+    return (
         <>
             <h1>Nosotros</h1>
         </>

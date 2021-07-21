@@ -8,12 +8,14 @@ nav {
     width: 90vw;
     margin-top: 5vh;
     margin-left: -45vw;
-    padding: 0 20px;
+    padding: 0 1.25rem;
     background-color: var(--color-terciario-1);
     
-    border-radius: 100px;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-    -ms-border-radius: 100px;
-    -o-border-radius: 100px;
+    border-radius: 6.25rem;
+    -webkit-border-radius: 6.25rem;
+    -moz-border-radius: 6.25rem;
+    -ms-border-radius: 6.25rem;
+    -o-border-radius: 6.25rem;
+
+    box-shadow: var(--sombra-1);
 }

@@ -1,7 +1,7 @@
 import './NotFoundComponent.css';
 
 function NotFoundComponent() {
-    return(
+    return (
         <>
             <h1>404 Not Found</h1>
         </>

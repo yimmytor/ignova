@@ -1,7 +1,7 @@
 import './ContactoComponent.css';
 
 function ContactoComponent() {
-    return(
+    return (
         <>
             <h1>Contacto</h1>
         </>

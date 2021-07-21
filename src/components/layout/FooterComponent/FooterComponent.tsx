@@ -1,7 +1,7 @@
 import './FooterComponent.css';
 
 function FooterComponent() {
-    return(
+    return (
         <>
             <p>Footer</p>
         </>

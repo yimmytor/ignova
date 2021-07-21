@@ -4,7 +4,7 @@ import NavComponent from '../NavComponent/NavComponent';
 
 
 function HeaderComponent(props: {menuLinks: Array<Interfaces.Link>}) {
-    return(
+    return (
         <header className="container-fluid">
             <NavComponent menuLinks={props.menuLinks} />
         </header>

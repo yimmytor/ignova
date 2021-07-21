@@ -3,6 +3,11 @@
     --color-primario: #ba66ff;
     --color-secundario: #1f6ec9;
     --color-terciario: #ffffff;
+
+    --color-primario-1: #5d2e83;
     --color-terciario-1: #ffffffd0;
     --color-font-default: #0e0e0e;
+
+    /* Sombras */
+    --sombra-1: 0 0 0.625rem #0000002c;
 }

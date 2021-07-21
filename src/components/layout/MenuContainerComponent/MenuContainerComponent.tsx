@@ -1,14 +1,15 @@
 import * as Interfaces from '../../util/interfaces';
 import './MenuContainerComponent.css';
-import { IconCloseMenu } from '../../common/IconosSVGComponent/IconosSVGComponent';
-import MenuComponent from '../MenuComponent/MenuComponet';
+import { IconClose } from '../../common/IconosSVGComponent/IconosSVGComponent';
+import MenuComponent from '../MenuComponent/MenuComponent';
 import ButtonComponent from '../../common/ButtonComponent/ButtonComponent';
+import { MouseEventHandler } from 'react';
 
-function MenuContainerComponent(props: {menuLinks: Array<Interfaces.Link>}) {
-    return(
-        <div className="menuContainer">
-            <ButtonComponent clase="boton boton-menu" texto="" icon={<IconCloseMenu />}/>            
-            <MenuComponent menuLinks={props.menuLinks} />
+function MenuContainerComponent(props: {clase: string, cambiarClaseMenu: MouseEventHandler, menuLinks: Array<Interfaces.Link>}) {
+    return (
+        <div className={'menu-container ' + props.clase}>            
+            <ButtonComponent accion={props.cambiarClaseMenu} clase="boton boton-menu boton-menu-cerrar" texto="" icon={<IconClose />}/>
+            <MenuComponent accion={props.cambiarClaseMenu} menuLinks={props.menuLinks} />            
         </div>
     );
 }

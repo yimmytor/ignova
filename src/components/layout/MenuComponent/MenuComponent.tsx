@@ -1,22 +1,22 @@
 import * as Interfaces from '../../util/interfaces';
-import { useState, useEffect } from "react";
+import { useState, useEffect, MouseEventHandler } from "react";
 import './MenuComponent.css';
 import MenuLinkComponent from '../MenuLinkComponent/MenuLinkComponent';
 
-function MenuComponent(props: {menuLinks: Array<Interfaces.Link>}) {
+function MenuComponent(props: {accion:MouseEventHandler, menuLinks: Array<Interfaces.Link>}) {
     const [menu, setMenu] = useState<Array<JSX.Element>>();
 
     useEffect(()=>{
         function generarMenu() {
             setMenu(props.menuLinks.map((link, index)=>
-                <MenuLinkComponent key={index} url={link.url} texto={link.texto} />
+                <MenuLinkComponent accion={props.accion} key={index} url={link.url} texto={link.texto} />
             ));
         }
 
         generarMenu();
     },[props.menuLinks]);
 
-    return(
+    return (
         <ul className="menu">
             {menu}
         </ul>        

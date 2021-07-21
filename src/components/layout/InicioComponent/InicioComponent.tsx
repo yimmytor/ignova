@@ -1,7 +1,7 @@
 import './InicioComponent.css';
 
 function InicioComponent() {
-    return(
+    return (
         <div className="container inicio">
             <h1>Inicio</h1>        
         </div>

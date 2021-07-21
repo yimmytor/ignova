@@ -1,7 +1,18 @@
-li {
+.menu li {
+    width: 100%;
     list-style: none;
 }
 
-.link-selected {
+.menu li:not(.menu li:first-child) {
+    margin-top: 0.625rem;   
+}
 
+.menu a {    
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 0.3125rem;    
+    font-weight: 600;
+    font-size: 1.7rem;
+    color: var(--color-primario-1);
 }

@@ -1,7 +1,7 @@
 import './ServiciosComponent.css';
 
 function ServiciosComponent() {
-    return(
+    return (
         <>
             <h1>Servicios</h1>
         </>
