@@ -1,3 +1,5 @@
 .inicio {
+    width: 100vw;
     height: 200vh;
+    background: red;
 }
