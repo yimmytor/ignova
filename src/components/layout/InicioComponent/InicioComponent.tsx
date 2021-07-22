@@ -1,14 +1,11 @@
 import './InicioComponent.css';
-import { OndaHero } from '../../common/FormasSVGComponent/FormasSVGComponent';
+import heroImg from '../../assets/img/hero/hero-inicio.jpg';
+import SeccionHeroComponent from '../../common/SeccionHeroComponent/SeccionHeroComponent';
 
 function InicioComponent() {
     return (
         <div className="container inicio">
-            <h1>Inicio</h1>        
-
-            <OndaHero svgStyle={{width: '100%', overflow: 'hidden'}}
-                      pathStyle={{stroke: 'none', fill: '#fff'}}
-            />
+            <SeccionHeroComponent imgUrl={heroImg} />            
         </div>
     );
 }

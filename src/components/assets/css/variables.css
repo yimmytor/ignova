@@ -4,10 +4,13 @@
     --color-secundario: #3058B0;
     --color-terciario: #ffffff;
 
-    --color-primario-1: #712e81;
+    --color-primario-1: #682e77;
     --color-terciario-1: #ffffffd0;
     --color-font-default: #0e0e0e;
 
     /* Sombras */
     --sombra-1: 0 0 0.625rem #0000002c;
+
+    /* Gradientes */        
+    --gradiente-1: linear-gradient(90deg, rgba(168, 73, 192, 0.7) 0%, rgba(48, 89, 176, 0.7) 100%);
 }

@@ -1,9 +1,11 @@
 import './NosotrosComponent.css';
+import heroImg from '../../assets/img/hero/hero-nosotros.jpg';
+import SeccionHeroComponent from '../../common/SeccionHeroComponent/SeccionHeroComponent';
 
 function NosotrosComponent() {
     return (
         <>
-            <h1>Nosotros</h1>
+            <SeccionHeroComponent imgUrl={heroImg} />
         </>
     );
 }
