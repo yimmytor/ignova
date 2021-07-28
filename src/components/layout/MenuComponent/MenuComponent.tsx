@@ -3,7 +3,7 @@ import { useState, useEffect, MouseEventHandler } from "react";
 import './MenuComponent.css';
 import MenuLinkComponent from '../MenuLinkComponent/MenuLinkComponent';
 
-function MenuComponent(props: {accion:MouseEventHandler, menuLinks: Array<Interfaces.Link>}) {
+function MenuComponent(props: {accion:MouseEventHandler, menuLinks: Array<Interfaces.ILink>}) {
     const [menu, setMenu] = useState<Array<JSX.Element>>();
 
     useEffect(()=>{

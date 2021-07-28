@@ -6,7 +6,7 @@ import MenuContainerComponent from '../MenuContainerComponent/MenuContainerCompo
 import BranchLogoComponent from '../../common/BranchLogoComponent/BranchLogoComponent';
 import ButtonComponent from '../../common/ButtonComponent/ButtonComponent';
 
-function NavComponent(props: {menuLinks: Array<Interfaces.Link>}) {
+function NavComponent(props: {menuLinks: Array<Interfaces.ILink>}) {
     const [claseMenu, setClaseMenu] = useState('menu-container menu-container-oculto');    
 
 

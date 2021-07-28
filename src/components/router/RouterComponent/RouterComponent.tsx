@@ -3,7 +3,7 @@ import { useState,useEffect } from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import NotFoundComponent from '../../layout/NotFoundComponent/NotFoundComponent';
 
-function RouterComponent(props: {menuLinks: Array<Interfaces.Link>}) {
+function RouterComponent(props: {menuLinks: Array<Interfaces.ILink>}) {
     const [rutas, setRutas] = useState<JSX.Element>();
 
     function generarRutas() {

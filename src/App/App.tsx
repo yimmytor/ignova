@@ -9,7 +9,7 @@ import RouterComponent from '../components/router/RouterComponent/RouterComponen
 import FooterComponent from '../components/layout/FooterComponent/FooterComponent';
 
 function App() {
-  let menuLinks: Array<Interfaces.Link> = [
+  let menuLinks: Array<Interfaces.ILink> = [
     {url: '/inicio', texto: 'Inicio', homePage: true, componente: <InicioComponent />},
     {url: '/nosotros', texto: 'Nosotros', homePage: false, componente: <NosotrosComponent />},
     {url: '/servicios', texto: 'Servicios', homePage: false, componente: <ServiciosComponent />},

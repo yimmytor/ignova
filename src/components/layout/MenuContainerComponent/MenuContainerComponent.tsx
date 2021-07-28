@@ -5,7 +5,7 @@ import MenuComponent from '../MenuComponent/MenuComponent';
 import ButtonComponent from '../../common/ButtonComponent/ButtonComponent';
 import { MouseEventHandler } from 'react';
 
-function MenuContainerComponent(props: {clase: string, cambiarClaseMenu: MouseEventHandler, menuLinks: Array<Interfaces.Link>}) {
+function MenuContainerComponent(props: {clase: string, cambiarClaseMenu: MouseEventHandler, menuLinks: Array<Interfaces.ILink>}) {
     return (
         <div className={'menu-container ' + props.clase}>            
             <ButtonComponent accion={props.cambiarClaseMenu} clase="boton boton-menu boton-menu-cerrar" texto="" icon={<IconClose />}/>
