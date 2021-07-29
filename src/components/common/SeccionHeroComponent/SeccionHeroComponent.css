@@ -3,12 +3,13 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 
 .hero-screen {
     width: 100%;
     height: 100%;
-    background: var(--gradiente-1);    
+    background: var(--gradiente-1);            
 }
 
 .hero-shapes {

@@ -12,11 +12,16 @@ html {
 }
 
 body {
+    min-height: 100vh;
+    background-color: var(--color-terciario);            
     font-family: 'Open Sans', sans-serif;
-    color: var(--color-font-default);
-    background-color: var(--color-terciario);        
+    color: var(--color-font-default);    
 }
 
 a {
     text-decoration: none;
+}
+
+main {
+    min-height: 200vh;
 }

@@ -9,7 +9,7 @@ function FooterComponent() {
 
     return (
         <footer>                        
-            <p>&copy; {getCurrentYear()} Derechos Reservados</p>
+            <p className="copyright">&copy; {getCurrentYear()} Derechos Reservados</p>
             <SocialContainerComponent socialLinks={[                
                 {url: 'http://www.facebook.com', icono: <IconFacebook /> , clase: 'social-link'},
                 {url: 'http://www.instagram.com', icono: <IconInstagram />, clase: 'social-link'}

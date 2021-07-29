@@ -2,7 +2,7 @@ import { OndaHero } from '../FormasSVGComponent/FormasSVGComponent';
 
 import './SeccionHeroComponent.css';
 
-function SeccionHeroComponent(props: {imgUrl: string}) {
+function SeccionHeroComponent(props: {imgUrl: string, childElement?: JSX.Element}) {
     return (
         
 
@@ -11,10 +11,11 @@ function SeccionHeroComponent(props: {imgUrl: string}) {
                 <div className="hero-shapes">
                     <OndaHero pathStyle={[{fill: 'rgba(255,255,255,0.4)'},
                                           {fill: 'rgba(255,255,255)'}]}
-                              svgStyle={{stroke: 'none', width: '100%'}}
-                    />
-                </div>
+                              svgStyle={{stroke: 'none', width: '100%'}}                              
+                    />                    
+                </div>                
             </div>
+            {props.childElement}
         </div>
     );
 }

@@ -8,11 +8,28 @@ footer {
     color: var(--color-terciario);
 }
 
+footer .copyright {    
+    width: 60%;
+    font-size: 0.9rem;
+}
+
+footer .social-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .social-container a.social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 footer .social-container a.social-link:not(a.social-link:last-child) {
     margin-right: 5px;
 }
 
 footer .social-container a.social-link svg {
-    height: 1.5rem;
-    width: 1.5rem;
+    height: 1.7rem;
+    width: 1.7rem;
 }

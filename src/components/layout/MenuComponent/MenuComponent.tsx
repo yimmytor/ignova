@@ -14,6 +14,7 @@ function MenuComponent(props: {accion:MouseEventHandler, menuLinks: Array<Interf
         }
 
         generarMenu();
+        // eslint-disable-next-line
     },[props.menuLinks]);
 
     return (

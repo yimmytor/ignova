@@ -1,12 +1,13 @@
 import './ServiciosComponent.css';
-import heroImg from '../../assets/img/hero/hero-inicio.jpg';
+import heroImg from '../../assets/img/hero/hero-servicios.jpg';
 import SeccionHeroComponent from '../../common/SeccionHeroComponent/SeccionHeroComponent';
 
 function ServiciosComponent() {
     return (
-        <>
-            <SeccionHeroComponent imgUrl={heroImg} />
-        </>
+        <div className="container seccion-servicios">
+            <SeccionHeroComponent imgUrl={heroImg} />            
+            <h1>Servicios</h1>             
+        </div>
     );
 }
 

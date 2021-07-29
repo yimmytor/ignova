@@ -4,9 +4,10 @@ import SeccionHeroComponent from '../../common/SeccionHeroComponent/SeccionHeroC
 
 function NosotrosComponent() {
     return (
-        <>
-            <SeccionHeroComponent imgUrl={heroImg} />
-        </>
+        <div className="container seccion-nosotros">
+            <SeccionHeroComponent imgUrl={heroImg} />              
+            <h1>Nosotros</h1>           
+        </div>
     );
 }
 

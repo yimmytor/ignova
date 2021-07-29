@@ -4,9 +4,9 @@ import SeccionHeroComponent from '../../common/SeccionHeroComponent/SeccionHeroC
 
 function InicioComponent() {
     return (
-        <div className="container inicio">
-            <SeccionHeroComponent imgUrl={heroImg} />  
-            <p>Some text...</p>
+        <div className="container seccion-inicio">
+            <SeccionHeroComponent imgUrl={heroImg}/>   
+            <h1>Inicio</h1>           
         </div>
     );
 }

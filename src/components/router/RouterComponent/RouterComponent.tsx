@@ -23,6 +23,7 @@ function RouterComponent(props: {menuLinks: Array<Interfaces.ILink>}) {
 
     useEffect(() => {
         setRutas(generarRutas());
+        // eslint-disable-next-line
     }, [])
 
     return (

@@ -7,6 +7,7 @@ import BranchLogoComponent from '../../common/BranchLogoComponent/BranchLogoComp
 import ButtonComponent from '../../common/ButtonComponent/ButtonComponent';
 
 function NavComponent(props: {menuLinks: Array<Interfaces.ILink>}) {
+    // const [claseMenu, setClaseMenu] = useState('menu-container menu-container-oculto');    
     const [claseMenu, setClaseMenu] = useState('menu-container menu-container-oculto');    
 
 
@@ -25,7 +26,7 @@ function NavComponent(props: {menuLinks: Array<Interfaces.ILink>}) {
     }
 
     function ocultarMenu() {
-        setClaseMenu('menu-container menu-container-oculto');
+        setClaseMenu('menu-container ocultar-menu');
     }
 
     return (        
