@@ -7,6 +7,7 @@ import ContactoComponent from '../components/layout/ContactoComponent/ContactoCo
 import HeaderComponent from '../components/layout/HeaderComponent/HeaderComponent';
 import RouterComponent from '../components/router/RouterComponent/RouterComponent';
 import FooterComponent from '../components/layout/FooterComponent/FooterComponent';
+import 'animate.css';
 
 function App() {
   let menuLinks: Array<Interfaces.ILink> = [

@@ -21,3 +21,18 @@ nav {
 
     z-index: 999;
 }
+
+nav .boton-menu {
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;    
+    border: none;
+    background-color: transparent;
+    color: var(--color-primario-1);    
+}
+
+nav .boton-menu svg {
+    height: 2rem;    
+}
+    

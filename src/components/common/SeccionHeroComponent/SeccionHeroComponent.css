@@ -3,7 +3,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    position: relative;    
 }
 
 .hero-screen {
@@ -19,3 +19,61 @@
     align-items: flex-end;
 }
 
+.hero-content {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 60%;    
+}
+
+.hero-content h1.hero-title {    
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color-terciario);
+}
+
+.hero-content p.hero-subtitle {    
+    font-size: 1.8rem;
+    font-weight: bolder;
+    text-align: center;        
+    color: var(--color-font-alto-contraste);    
+}
+
+.hero-content .hero-button-box {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;  
+    margin-top: 1rem;
+}
+
+.hero-content .hero-button-box .hero-button {
+    padding: 0.8125rem 0.9375rem;
+    border: none;
+    margin: 5px;
+    background-color: var(--color-boton-hero);
+    font-size: 1rem;
+    color: var(--color-terciario);
+    cursor: pointer;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+}
+
+.hero-content .hero-button-box .hero-button:hover {
+    background-color: var(--color-boton-hero-hover);
+    box-shadow: var(--sombra-2);
+}

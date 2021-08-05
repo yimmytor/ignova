@@ -59,7 +59,24 @@
     100%{ opacity: 1; transform:scale(1); -webkit-transform:scale(1); -moz-transform:scale(1); -ms-transform:scale(1); -o-transform:scale(1); }
 }
 
-.menuContainer button svg {
-    color: var(--color-primario-1);
+.boton-menu-cerrar {
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;    
+    border: 2px solid var(--color-primario-1);
+    background-color: transparent;
+    color: var(--color-primario-1);    
+        
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
 }
 
+.boton-menu-cerrar svg {
+    height: 2rem;    
+    color: var(--color-primario-1);
+}
+    

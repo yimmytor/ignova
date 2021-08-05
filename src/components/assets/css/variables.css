@@ -7,10 +7,16 @@
     --color-primario-1: #682e77;
     --color-terciario-1: #ffffffd0;
     --color-font-default: #0e0e0e;
+    --color-font-alto-contraste: #000000;
 
+    --color-boton-hero: #000000;
+    --color-boton-hero-hover: rgb(125, 0, 209);
+    
     /* Sombras */
     --sombra-1: 0 0 0.625rem #0000002c;
+    --sombra-2: 0 0 0.625rem #ffffff8e;    
 
     /* Gradientes */        
-    --gradiente-1: linear-gradient(90deg, rgba(168, 73, 192, 0.7) 0%, rgba(48, 89, 176, 0.7) 100%);
+    --gradiente-1: linear-gradient(90deg, rgba(212, 40, 255, 0.616) 0%, rgba(44, 135, 255, 0.7) 100%);
+    
 }
