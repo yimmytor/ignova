@@ -1,25 +1,18 @@
-import * as Interfaces from '../../util/interfaces';
-import { useState, useEffect, MouseEventHandler } from "react";
+import * as Interfaces from '../../models/interfaces';
+import { MouseEventHandler } from "react";
 import './MenuComponent.css';
 import MenuLinkComponent from '../MenuLinkComponent/MenuLinkComponent';
 
 function MenuComponent(props: {accion:MouseEventHandler, menuLinks: Array<Interfaces.ILink>}) {
-    const [menu, setMenu] = useState<Array<JSX.Element>>();
-
-    useEffect(()=>{
-        function generarMenu() {
-            setMenu(props.menuLinks.map((link, index)=>
-                <MenuLinkComponent accion={props.accion} key={index} url={link.url} texto={link.texto} />
-            ));
-        }
-
-        generarMenu();
-        // eslint-disable-next-line
-    },[props.menuLinks]);
+    function generarMenu() {
+        return props.menuLinks.map((link, index)=>
+            <MenuLinkComponent accion={props.accion} key={index} url={link.url} texto={link.texto} />
+        );
+    }
 
     return (
         <ul className="menu">
-            {menu}
+            {generarMenu()}
         </ul>        
     );
 }

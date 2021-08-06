@@ -10,16 +10,14 @@ nav {
     margin-left: -45vw;
     padding: 0 1.25rem;
     background-color: var(--color-terciario-1);
-    
+    box-shadow: var(--sombra-1);
+    z-index: 999;
+
     border-radius: 6.25rem;
     -webkit-border-radius: 6.25rem;
     -moz-border-radius: 6.25rem;
     -ms-border-radius: 6.25rem;
-    -o-border-radius: 6.25rem;
-
-    box-shadow: var(--sombra-1);
-
-    z-index: 999;
+    -o-border-radius: 6.25rem;    
 }
 
 nav .boton-menu {
@@ -35,4 +33,3 @@ nav .boton-menu {
 nav .boton-menu svg {
     height: 2rem;    
 }
-    

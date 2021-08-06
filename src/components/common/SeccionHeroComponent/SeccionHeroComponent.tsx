@@ -4,8 +4,6 @@ import './SeccionHeroComponent.css';
 
 function SeccionHeroComponent(props: {imgUrl: string, childElement?: JSX.Element}) {
     return (
-        
-
         <div style={{ backgroundImage: `url(${props.imgUrl})` }} className="hero-container container-fluid">
             <div className="hero-screen">
                 <div className="hero-shapes">

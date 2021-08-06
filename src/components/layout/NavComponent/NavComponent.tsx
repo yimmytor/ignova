@@ -1,4 +1,4 @@
-import * as Interfaces from '../../util/interfaces';
+import * as Interfaces from '../../models/interfaces';
 import './NavComponent.css';
 import { useState } from 'react';
 import { IconoMenu } from '../../common/IconosSVGComponent/IconosSVGComponent';

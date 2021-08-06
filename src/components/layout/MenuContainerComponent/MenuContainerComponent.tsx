@@ -1,4 +1,4 @@
-import * as Interfaces from '../../util/interfaces';
+import * as Interfaces from '../../models/interfaces';
 import './MenuContainerComponent.css';
 import { IconClose } from '../../common/IconosSVGComponent/IconosSVGComponent';
 import MenuComponent from '../MenuComponent/MenuComponent';

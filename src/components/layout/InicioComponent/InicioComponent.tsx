@@ -2,7 +2,6 @@ import './InicioComponent.css';
 import heroImg from '../../assets/img/hero/hero-inicio.jpg';
 import SeccionHeroComponent from '../../common/SeccionHeroComponent/SeccionHeroComponent';
 import HeroContentComponent from '../../common/HeroContentComponent/HeroContentComponent';
-import ButtonComponent from '../../common/ButtonComponent/ButtonComponent';
 import LinktoComponent from '../../common/LinktoComponent/LintoComponent';
 
 function InicioComponent() {    

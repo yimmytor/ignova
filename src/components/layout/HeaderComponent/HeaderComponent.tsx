@@ -1,4 +1,4 @@
-import * as Interfaces from '../../util/interfaces';
+import * as Interfaces from '../../models/interfaces';
 import './HeaderComponent.css';
 import NavComponent from '../NavComponent/NavComponent';
 

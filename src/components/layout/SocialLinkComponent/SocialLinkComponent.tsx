@@ -1,4 +1,4 @@
-import { ISocialLink } from "../../util/interfaces";
+import { ISocialLink } from "../../models/interfaces";
 import './SocialLinkComponent.css';
 
 function SocialLinkComponent(props: {link: ISocialLink}) {

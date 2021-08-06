@@ -1,4 +1,4 @@
-import * as Interfaces from '../components/util/interfaces';
+import * as Interfaces from '../components/models/interfaces';
 import { BrowserRouter as Router } from "react-router-dom";
 import InicioComponent from '../components/layout/InicioComponent/InicioComponent';
 import NosotrosComponent from '../components/layout/NosotrosComponent/NosotrosComponent';
